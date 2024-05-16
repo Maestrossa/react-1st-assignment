@@ -1,0 +1,45 @@
+#root {
+  max-width: 1200px;
+  min-height: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: solid;
+  align-items: center;
+}
+
+.working-on-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border: solid;
+  border-radius: 4px;
+  margin: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+.buttons {
+  justify-content: space-between;
+}
+
+.del-btn {
+  width: 50px;
+  margin: 2px 4px;
+  justify-content: center;
+}
+
+.add-btn {
+  height: 30px;
+}
