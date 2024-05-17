@@ -1,6 +1,6 @@
 const TodoItem = ({ todo, setTodos }) => {
   const { id, title, content, isDone } = todo;
-  const deleteTodo = (todos) => {
+  const deleteTodo = () => {
     setTodos((prev) => prev.filter((todo) => todo.id !== id));
   };
 
